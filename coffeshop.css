@@ -1,0 +1,59 @@
+body {
+  background-color: #33869b;
+}
+.wrapper {
+  padding: 1px;
+  margin: 25px;
+  margin-left: 70px;
+}
+.box {
+  height: 330px;
+  width: 290px;
+  background: #305d68;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.box:hover .img {
+  display: block;
+}
+.img {
+  display: none;
+  transition: 4s;
+  height: 229px;
+  width: 250px;
+  margin: 15px;
+}
+.off {
+  text-decoration: line-through;
+  color: white;
+  margin-right: 13px;
+}
+.price {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+ h2{
+  padding: 0px;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 5px;
+  text-align: center;
+  color: rgb(241, 174, 28);
+}
+ .bb{
+  background-color: rgb(102, 30, 30);
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 5px;
+}
+.bb:hover {
+  color: orange;
+  background-color: aqua;
+  opacity: 0.67;
+  border-radius: 10px;
+}
