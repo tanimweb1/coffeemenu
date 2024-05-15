@@ -18,7 +18,7 @@ body {
   display: block;
 }
 .img {
-  display: none;
+/*   display: none; */
   transition: 4s;
   height: 229px;
   width: 250px;
